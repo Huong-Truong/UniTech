@@ -11,7 +11,7 @@ use App\Http\Controllers\CheckOutController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/trang-chu', [HomeController::class, 'index'])->name('trangchu');
 Route::get('/trang-chu', [HomeController::class, 'index'])->name('trangchu');
-
+Route::get('/trang-chu', [HomeController::class, 'index'])->name('trangchu');
 ## admin
 Route::get('/admin', [AdminController::class, 'index'])->name('admin'); ## đăng nhập admin
 Route::get('/dashboard', [AdminController::class, 'showDashboard'])->name('dashboard');
