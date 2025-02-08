@@ -19,9 +19,10 @@ Route::post('/admin-dashboard', [AdminController::class, 'dashboard'])->name('ad
 Route::get('/logout', [AdminController::class, 'logout'])->name('logout');
 
 
+//  Test:
 
 // ADMIN:
-
+Route::get('/login', [HomeController::class, 'login'])->name('login');
 ## CategoryProduct
 
 Route::get('/add-category-product', [CategoryProduct::class, 'add_category_product'])->name('add-category');
